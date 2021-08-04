@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
+@font-face {
+    font-family: 'Minecraft';
+    src: url('font/Minecraft.woff2') format('woff2'),
+    url('font/Minecraft.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+#main-page {
+    display: none;
+    color : white;
+    font-family: Minecraft;
+}
+
+#username {
+    display: inline-block;
+    float: left;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    font-size: 2rem;
+    margin-top: 0.5rem;
+}
+
+#upside {
+    display: inline-block;
+    height: 4rem;
+    border: none;
+}
+
+#play-button {
+    background-color: #51c938;
+    border : 0.05rem solid black;
+    display: block;
+    width: 20%;
+    height : 100%;
+    margin-left: 40%;
+    font-size: 2rem;
+    color: whitesmoke;
+    font-weight: 900;
+    border-radius: 10px;
+    font-family: Minecraft;
+}
+
+#play-button:hover {
+    background-color: #46ad31;
+}
+
+#downside {
+    height: 5rem;
+    margin-top: 1rem;
+}
+
+#main-image {
+    max-width: 100%;
+}
+
+#player-head {
+    float: left;
+    display: inline-block;
+    margin-right: 0.5rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+
+#login-page {
+    text-align: center;
+    font-family: 'Noto Sans KR';
+}
+
+hr {
+    height: 2px;
+    border-width: 0;
+    color: gray;
+    background-color: gray;
+    display: block;
+}
+
+#maint {
+    margin-top: 10rem;
+    font-size: 4rem;
+}
+
+.text-span {
+    margin-top: 10rem;
+    font-size: 2rem;
+}
+
+.text-field {
+    border: none;
+    background-color: transparent;
+    border-bottom: 0.1rem solid #000;
+    width: 30rem;
+    outline: none;
+    font-size: 150%;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+#login-button {
+    background-color: transparent;
+    border : 0.1rem solid black;
+    font-size: 2rem;
+    width: 30rem;
+    height: 4rem;
+}
+
+#login-button:hover {
+    border: 0.2rem solid #ffc505;
+}
