@@ -1,5 +1,5 @@
 {
-  "name": "launcher",
+  "name": "electronic launcher",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,7 +11,6 @@
   "license": "ISC",
   "dependencies": {
     "ejs-electron": "^2.1.1",
-    "jquery": "^3.6.0",
     "minecraft-launcher-core": "^3.16.4"
   }
 }
