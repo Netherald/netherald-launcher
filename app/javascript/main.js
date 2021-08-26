@@ -25,7 +25,7 @@ function loginclick() {
     console.log(data['selectedProfile'])
     span.textContent = data['selectedProfile']['name']
     let img = document.getElementById("player-head")
-    img.src = "https://cravatar.eu/avatar/"+data['selectedProfile']['name']+".png"
+    img.src = "https://cravatar.eu/helmavatar/"+data['selectedProfile']['name']+".png"
 }
 
 function launch() {

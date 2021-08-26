@@ -1,2 +1,4 @@
 node_modules/
 run/
+.idea/
+package-lock.json
